@@ -13,6 +13,7 @@ export default defineConfig({
 
   // 2. Explicitly bind the nitro integration to the underlying vite compiler
   vite: {
+    base: "/",
     plugins: [
       nitro({
         preset: "vercel",
