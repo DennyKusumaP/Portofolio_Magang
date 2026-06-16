@@ -1,12 +1,22 @@
-import { defineConfig } from "vite";
-import { tanstackStart } from "@tanstack/start/vite";
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { nitro } from "nitro/vite";
 
 export default defineConfig({
-  plugins: [
-    tanstackStart({
-      server: {
-        entry: "server",
-      },
-    }),
-  ],
+  // 1. Force the Lovable config to keep the nitro deploy framework active locally
+  nitro: true,
+
+  tanstackStart: {
+    server: {
+      entry: "server",
+    },
+  },
+
+  // 2. Explicitly bind the nitro integration to the underlying vite compiler
+  vite: {
+    plugins: [
+      nitro({
+        preset: "vercel",
+      }),
+    ],
+  },
 });
