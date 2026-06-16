@@ -1,3 +1,4 @@
+import process from "node:process";
 import { AsyncLocalStorage } from "node:async_hooks";
 import { H as H3Event, t as toResponse } from "../_libs/h3-v2.mjs";
 import { y as defineHandlerCallback, z as resolveManifestAssetLink, u as resolveManifestCssLink, k as rootRouteId, A as getNormalizedURL, C as getOrigin, D as normalizeSsrResponse, E as attachRouterServerSsrUtils, F as createSerializationAdapter, G as createRawStreamRPCPlugin, i as invariant, g as isNotFound, m as isRedirect, H as isResolvedRedirect, I as replaceSsrResponse, J as mergeHeaders, K as executeRewriteInput, L as stripSsrResponseBody, M as defaultSerovalPlugins, N as makeSerovalPlugin, s as getScriptPreloadAttrs, O as getStylesheetHref, P as isSsrResponse } from "../_libs/tanstack__router-core.mjs";
@@ -5,17 +6,20 @@ import { i as iu, P as Pu, s as su } from "../_libs/seroval.mjs";
 import { c as createMemoryHistory } from "../_libs/tanstack__history.mjs";
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { r as renderRouterToStream, R as RouterProvider } from "../_libs/tanstack__react-router.mjs";
+import "../_libs/unenv.mjs";
+
+
 import "../_libs/rou3.mjs";
 import "../_libs/srvx.mjs";
-import "node:stream";
+
+
+
+
+
 import "../_libs/cookie-es.mjs";
 import "../_libs/seroval-plugins.mjs";
-import "node:stream/web";
+
 import "../_libs/react-dom.mjs";
-import "util";
-import "crypto";
-import "async_hooks";
-import "stream";
 import "../_libs/isbot.mjs";
 function StartServer(props) {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(RouterProvider, { router: props.router });
