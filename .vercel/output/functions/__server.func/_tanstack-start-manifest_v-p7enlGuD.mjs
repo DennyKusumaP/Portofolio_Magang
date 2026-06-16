@@ -1,0 +1,4 @@
+const tsrStartManifest = () => ({ routes: { __root__: { filePath: "C:/Users/ASUS/Downloads/Porto Magang/Porto Magang/src/routes/__root.tsx", children: ["/", "/contact", "/projects"], preloads: ["/assets/index-BSsKQg0u.js"], scripts: [{ attrs: { type: "module", async: true, src: "/assets/index-BSsKQg0u.js" } }] }, "/": { filePath: "C:/Users/ASUS/Downloads/Porto Magang/Porto Magang/src/routes/index.tsx", children: void 0, preloads: ["/assets/index-ID24QDsv.js", "/assets/SiteLayout-DXKHZOhF.js"] }, "/contact": { filePath: "C:/Users/ASUS/Downloads/Porto Magang/Porto Magang/src/routes/contact.tsx", children: void 0, preloads: ["/assets/contact-rljjbASR.js", "/assets/SiteLayout-DXKHZOhF.js"] }, "/projects": { filePath: "C:/Users/ASUS/Downloads/Porto Magang/Porto Magang/src/routes/projects.tsx", children: void 0, preloads: ["/assets/projects-DXFP_xgZ.js", "/assets/SiteLayout-DXKHZOhF.js"] } } });
+export {
+  tsrStartManifest
+};

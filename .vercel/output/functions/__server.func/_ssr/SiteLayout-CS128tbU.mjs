@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { d as useLocation, L as Link, O as Outlet } from "../_libs/tanstack__react-router.mjs";
-import { F as Foto_Profil } from "./router-tTfQkKUT.mjs";
+import { F as Foto_Profil } from "./router-D6ZX6tuj.mjs";
 const navItems = [
   { to: "/", label: "Beranda" },
   { to: "/projects", label: "Proyek" },

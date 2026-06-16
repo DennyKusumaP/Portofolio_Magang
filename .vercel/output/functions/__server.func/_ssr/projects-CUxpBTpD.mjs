@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
-import { S as SiteLayout } from "./SiteLayout-CqjZ4L2Z.mjs";
+import { S as SiteLayout } from "./SiteLayout-CS128tbU.mjs";
 
 import "../_libs/tanstack__router-core.mjs";
 import "../_libs/tanstack__history.mjs";
@@ -14,7 +14,7 @@ import "../_libs/seroval-plugins.mjs";
 
 import "../_libs/react-dom.mjs";
 import "../_libs/isbot.mjs";
-import "./router-tTfQkKUT.mjs";
+import "./router-D6ZX6tuj.mjs";
 import "../_libs/tanstack__query-core.mjs";
 import "../_libs/tanstack__react-query.mjs";
 const projects = [{

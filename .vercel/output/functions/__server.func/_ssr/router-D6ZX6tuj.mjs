@@ -95,6 +95,10 @@ const Route$3 = createRootRouteWithContext()({
     ],
     links: [
       {
+        rel: "icon",
+        href: "/favicon.ico"
+      },
+      {
         rel: "stylesheet",
         href: appCss
       }
@@ -118,7 +122,7 @@ function RootComponent() {
   const { queryClient } = Route$3.useRouteContext();
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { client: queryClient, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) });
 }
-const $$splitComponentImporter$2 = () => import("./projects-DfMYUS8w.mjs");
+const $$splitComponentImporter$2 = () => import("./projects-CUxpBTpD.mjs");
 const Route$2 = createFileRoute("/projects")({
   head: () => ({
     meta: [{
@@ -136,7 +140,7 @@ const Route$2 = createFileRoute("/projects")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./contact-0g_WaSCN.mjs");
+const $$splitComponentImporter$1 = () => import("./contact-C4BlTfZc.mjs");
 const Route$1 = createFileRoute("/contact")({
   head: () => ({
     meta: [{
@@ -155,7 +159,7 @@ const Route$1 = createFileRoute("/contact")({
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
 const Foto_Profil = "/assets/Foto-Profil-BJsJqnPr.jpeg";
-const $$splitComponentImporter = () => import("./index-C2nNJ1wr.mjs");
+const $$splitComponentImporter = () => import("./index-CrPWZEvF.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

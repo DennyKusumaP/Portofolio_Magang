@@ -33,9 +33,9 @@ globalThis.__nitro_vite_envs__ = services;
 const findRouteRules = (m, p) => {
   return [];
 };
-const _lazy_rl_XpD = defineLazyEventHandler(() => import("./_chunks/renderer-template.mjs"));
+const _lazy_o8CU32 = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
 const findRoute = /* @__PURE__ */ (() => {
-  const data = { route: "/**", handler: _lazy_rl_XpD };
+  const data = { route: "/**", handler: _lazy_o8CU32 };
   return ((_m, p) => {
     return { data, params: { "_": p.slice(1) } };
   });
